@@ -1,0 +1,18 @@
+
+El metodo Updates.set  puede actualizar un campo como crear un campo nuevo si este no existe en el documento.
+
+
+Mongo Shell
+----------
+	
+	show databases
+	connect('localhost/testMongo') -- usarlo  solo cuando  se quiera conectar a un remoto o puerto distinto
+	use testMongo	-- cambia a la bd
+	show collections
+	db.persona.find() -- muestra todos los objetos del documento persona.
+ 
+ 
+URLs:
+------
+http://www.baeldung.com/java-mongodb
+http://mongodb.github.io/mongo-java-driver/3.8/driver/tutorials/perform-write-operations/
